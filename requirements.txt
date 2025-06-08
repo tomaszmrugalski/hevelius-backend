@@ -12,6 +12,10 @@ astropy-iers-data==0.2025.1.20.0.32.27
     # via astropy
 blinker==1.9.0
     # via flask
+certifi==2025.4.26
+    # via requests
+charset-normalizer==3.4.2
+    # via requests
 click==8.1.7
     # via flask
 flask==3.1.1
@@ -26,6 +30,8 @@ flask-jwt-extended==4.7.1
     # via -r requirements.in
 flask-smorest==0.45.0
     # via -r requirements.in
+idna==3.10
+    # via requests
 itsdangerous==2.2.0
     # via flask
 jinja2==3.1.6
@@ -71,12 +77,16 @@ pytz==2024.2
     # via pandas
 pyyaml==6.0.2
     # via astropy
+requests==2.32.3
+    # via -r requirements.in
 six==1.16.0
     # via python-dateutil
 tenacity==9.0.0
     # via plotly
 tzdata==2024.2
     # via pandas
+urllib3==2.4.0
+    # via requests
 webargs==8.6.0
     # via flask-smorest
 werkzeug==3.1.3
